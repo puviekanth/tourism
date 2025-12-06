@@ -1,13 +1,13 @@
 import React from "react";
-import navbar from '../components/navbar';
 import Navbar from "../components/navbar";
+import TopPackages from "../components/topPackages";
 
 const Home = () => {
   return (
     <>
     <Navbar/>
     <section>
-      
+      <TopPackages />
     </section>
 
 
